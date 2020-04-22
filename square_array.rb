@@ -2,6 +2,6 @@ numbers = [1,2,3]
 
 def square_array(numbers)
   new_array = []
-  array.each{|a| new_array.push(a*a)}
+  array.each{|number| new_array.push(number**2)}
   return new_array
 end
